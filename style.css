@@ -1,0 +1,113 @@
+*{
+  max-width:1280px ;
+  margin: 10px auto ;
+   
+ 
+}
+.nav-title{
+  border: 1px solid blue ;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.ceter-er-docu{
+  display: flex;
+  list-style: none;
+  gap:40px;
+}
+
+
+
+
+
+.right-er-logo{
+  display: flex;
+  background-color:black;
+  width:70px;
+  height: 33px;
+  border-radius:45px;
+  justify-content: center; 
+    
+}
+
+/* start main section style */
+.container{
+  display: flex;
+  margin-top:4%;
+}
+.child-1{
+ 
+  width: 50%;
+  padding: 30px;
+  
+   
+  
+}
+.img-p{
+  display: flex;
+  margin-top: 30px;
+ 
+ 
+}
+ .child-2{
+   
+  margin-top: 7%;
+
+ }
+ .child-2 img{
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+ }
+ .btn{
+  padding:15px;
+  border-radius: 8px;
+  background-color:blue ;
+  color: white;
+  margin-right: 10px;
+  border:none;
+  font-size: 20px;
+  margin-top:30px;
+ }
+ .banner-title{
+  font-size:90px; margin-top: 20px;
+ }
+ .get{
+  color: blue;
+  font-size:20px;
+  margin-top: 30px;
+ }
+/* end main section style */
+
+ @media screen and (max-width:576px) {
+  .container{
+    flex-direction: column;
+    margin: 10px 0  ;
+    padding:0;
+    
+
+  }
+  .nav-title{
+    flex-direction: column;
+    width:99%;
+     
+  }
+  .child-1{
+    order:2;
+  }
+  *{
+    max-width:1280px ;
+    margin: 10px 0 ;
+  }
+  .child-2 img{
+    display: flex;
+    width: 480px;
+  }
+  .banner-title{
+    font-size:80px; margin-top: 20px;
+  }
+   
+ }
